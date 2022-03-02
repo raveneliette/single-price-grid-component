@@ -128,13 +128,19 @@ span {
 
 /* About Box */
 .about-box {
-  background-color: var(--primary-color);
+  background-color: hsla(179, 62%, 44%, 0.9);
   border-radius: 0 0 8px 0;
   padding: 2.2rem;
 }
 
+.about-box ul {
+  margin-top: 1rem;
+}
+
 .about-box li {
-  color: hsla(204, 43%, 93%, 1); /* Adjust this later */
+  color: hsla(204, 43%, 93%, 0.8);
+  font-size: 0.8rem;
+  line-height: 1.45;
 }
 
 /* Media Queries */
