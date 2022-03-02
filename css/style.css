@@ -67,7 +67,7 @@ span {
 }
 
 .top-box .yellow-p {
-  color: var(--secondary-color); /* <<<<<<<<<<<<<<<<<<<< Edit this */
+  color: var(--secondary-color);
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -139,8 +139,8 @@ span {
 
 .about-box li {
   color: hsla(204, 43%, 93%, 0.8);
-  font-size: 0.8rem;
-  line-height: 1.45;
+  font-size: 0.83rem;
+  line-height: 1.42;
 }
 
 /* Media Queries */
