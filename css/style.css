@@ -96,7 +96,7 @@ span {
 
 .subscription-box .month-p {
   font-size: 0.94rem;
-  color: hsla(204, 43%, 93%, 0.6);
+  color: hsla(204, 43%, 93%, 0.5);
   margin-left: 0.75rem;
 }
 
@@ -139,7 +139,7 @@ span {
 }
 
 .about-box li {
-  color: hsla(204, 43%, 93%, 0.8);
+  color: hsla(204, 43%, 93%, 0.7);
   font-size: 0.82rem;
   line-height: 1.42;
 }
