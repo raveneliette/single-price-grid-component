@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/* 
+font-family: 'Karla', sans-serif;
+font-weight: 400, 700
+*/
+
+:root {
+  --primary-color: hsl(179, 62%, 43%); /* Cyan */
+  --secondary-color: hsl(71, 73%, 54%); /* Bright Yellow */
+  --light-color: hsl(204, 43%, 93%); /* Light Gray */
+  --neutral-color: hsl(218, 22%, 67%); /* Grayish Blue */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--light-color);
+  display: flex;
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: var(--light-color);
+  font-size: 1.05rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: var(--light-color);
+  font-size: 1.87rem;
+  font-weight: 700;
+}
+
+/* Classes */
+.main-container {
+  border-radius: 8px;
+  background-color: #fff;
+  width: 600px;
+}
+
+/* Top Box */
+.top-box {
+  border-radius: 8px 8px 0 0;
+  padding: 2.2rem 0 2.2rem 2.2rem;
+}
+
+.top-box .title {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-bottom: 1.3rem;
+}
+
+.top-box .yellow-p {
+  color: var(--secondary-color); /* <<<<<<<<<<<<<<<<<<<< Edit this */
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.top-box p {
+  color: var(--neutral-color);
+}
+
+.top-box .top-main-p {
+  font-size: 0.934rem;
+  line-height: 1.6;
+}
+
+/* Subcription Box */
+.subscription-box {
+  background-color: var(--primary-color);
+  border-radius: 0 0 0 8px;
+  padding: 2.2rem;
+}
+
+.subscription-box .dollar-container {
+  margin-top: 1rem;
+}
+
+.subscription-box .month-p {
+  font-size: 0.94rem;
+  color: hsla(204, 43%, 93%, 0.6);
+  margin-left: 0.75rem;
+}
+
+.subscription-box .subscription-description {
+  color: var(--light-color);
+  font-size: 0.93rem;
+  margin-top: 0.5rem;
+}
+
+.subscription-box a {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: 0 12px 15px -6px hsl(179, 35%, 43%);
+  color: hsl(204, 43%, 100%);
+  display: block;
+  font-size: 0.93rem;
+  margin-top: 1.7rem;
+  padding: 0.8rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.subscription-box a:hover {
+  transform: scale(1.02);
+}
+
+.subscription-box a:active {
+  transform: scale(0.98);
+}
+
+/* About Box */
+.about-box {
+  background-color: var(--primary-color);
+  border-radius: 0 0 8px 0;
+  padding: 2.2rem;
+}
+
+.about-box li {
+  color: hsla(204, 43%, 93%, 1); /* Adjust this later */
+}
+
+/* Media Queries */
+/* Tablets and Under */
+/* Mobile */
