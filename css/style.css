@@ -68,7 +68,7 @@ span {
 }
 
 .top-box .yellow-p {
-  color: var(--secondary-color);
+  color: hsl(65, 70%, 54%);
   font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
