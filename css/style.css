@@ -124,10 +124,14 @@ span {
 }
 
 .subscription-box a:hover {
+  background-color: hsl(71, 80%, 54%);
+  color: #fff;
   transform: scale(1.02);
 }
 
 .subscription-box a:active {
+  background-color: var(--secondary-color);
+  color: hsl(204, 43%, 100%);
   transform: scale(0.98);
 }
 
