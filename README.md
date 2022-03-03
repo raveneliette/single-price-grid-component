@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-MEEuZ7-wj]
+- Live Site URL: [https://cocky-jepsen-13ee14.netlify.app/]
 
 ## My process
 
